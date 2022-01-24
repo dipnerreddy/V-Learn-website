@@ -87,7 +87,7 @@ a:nth-child(1)
 {
   width: 280px;
 }
-nav .start-COURSECURRICULUM,a:nth-child(1):hover~.animation
+nav .start-home,a:nth-child(1):hover~.animation
 {
   width: 280px;
   left: 0;
@@ -96,7 +96,7 @@ a:nth-child(2)
 {
   width: 170px;
 }
-nav .start-RELATEDCOURSE,a:nth-child(2):hover~.animation
+nav .start-home,a:nth-child(2):hover~.animation
 {
   width: 170px;
   left: 280px;
@@ -111,12 +111,13 @@ nav .start-RELATEDCOURSE,a:nth-child(2):hover~.animation
   width: 250px;
   box-shadow: 10px 5px 5px #818181;
   border-radius: 20px;
+  left: 50px;
 }
 .box2{
   position: relative;
   background: linear-gradient(to bottom, #3F0066 50%, #F3EFEF 50%);
-  top: -55px;
-  left: 330px;
+  top: -50px;
+  left: 380px;
   padding: 10px;
   text-align: center;
   overflow: hidden;
@@ -128,7 +129,7 @@ nav .start-RELATEDCOURSE,a:nth-child(2):hover~.animation
   position: relative;
   background: linear-gradient(to bottom, #3F0066 50%, #F3EFEF 50%);
   top: 0px;
-  left: 330px;
+  left: 380px;
   padding: 10px;
   text-align: center;
   overflow: hidden;
@@ -140,7 +141,7 @@ nav .start-RELATEDCOURSE,a:nth-child(2):hover~.animation
   position: relative;
   background: linear-gradient(to bottom, #3F0066 50%, #F3EFEF 50%);
   top: -270px;
-  left: 10px;
+  left: 50px;
   padding: 10px;
   text-align: center;
   overflow: hidden;
@@ -362,4 +363,47 @@ nav .start-RELATEDCOURSE,a:nth-child(2):hover~.animation
   list-style: none;
   display: flex;
   justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 100%;
+  }
+  .box5 {
+    margin-top: 1500px;
+    left: 50px;
+    width: 350px;
+    height: 500px;
+  }
+  .box5 .btn {
+    margin: 80px 80px;
+  }
+  .box5 .btn1{
+    margin: 100px 120px;
+  }
+  .boxContainer {
+    left: 50px;
+    width: 300px;
+  }
+  .box1 {
+    left: 120px;
+    width: 200px;
+  }
+  .box2 {
+    left: 120px;
+    width: 200px;
+    top: 265px;
+  }
+  .box3 {
+    left: 120px;
+    width: 200px;
+    top: 300px;
+  }
+  .box4 {
+    left: 120px;
+    width: 200px;
+    top: 345px;
+  }
+
+
 }
